@@ -1,0 +1,30 @@
+.profile_img{
+    width: 317px;
+    height: 317px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.bussinessCard{
+    width: 550px;
+    height: 868px;
+    background: #23252C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 44px 0px;
+}
+
+.contacts{
+    width: 317px;
+    height: 64px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 48.5px;
+    justify-content: space-between;
+    font-size: 25px;
+    color: #918E9B;;
+}

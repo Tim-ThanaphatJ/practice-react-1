@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app_container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}

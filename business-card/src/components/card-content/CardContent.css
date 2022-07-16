@@ -1,0 +1,122 @@
+main{
+    padding-top: 21px;
+    padding-left: 36px;
+    padding-right: 34px;  
+    width: 317px;
+    height: 399px;
+    display: flex;
+    flex-direction: column;
+    background: #1A1B21;
+}
+
+.main--info_name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main--info_position {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 6.9px;
+    color: #F3BF99;
+}
+
+.main--info_website{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    margin-top: 8.81px;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.emailButton-1, .emailButton-2, .linkedinButton-2{
+    margin-top: 15px;
+    margin-bottom: 33px;
+}
+
+.emailButton-1{
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    box-sizing: border-box;
+    color: #374151;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    width: 247px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.emailButton-2{    
+    box-sizing: border-box;
+    color: #374151;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    width: 115px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.linkedinButton-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    width: 115px;
+    height: 34px;
+    background: #297FE5;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.main--info_header_about, .main--info_header_interest{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+.main--info_text_about, .main--info_text_interest{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+    margin-bottom: 16px;
+}
